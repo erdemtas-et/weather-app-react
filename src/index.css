@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.night-image {
+  background-image: url("./assets/images/night-alt.jpg");
+}
+.day-image {
+  background-image: url("./assets/images/day.jpg");
+}
+
+.App {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-box {
+  margin-top: 3em;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.search-button-fa {
+  color: gray;
+}
+
+.input-container input {
+  height: 3rem;
+  font-size: 2rem;
+  text-indent: 0.4em;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.input-container input::placeholder {
+  color: rgb(207, 207, 207);
+  font-size: 2rem;
+}
+
+.input-container input:hover,
+.input-container input:focus {
+  background-color: rgba(51, 51, 51, 0.827);
+  cursor: pointer;
+  color: white;
+}
+
+.input-container button {
+  height: 3rem;
+  font-size: 1.2rem;
+  padding: 0 1.3em;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.56);
+}
+
+.input-container button:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+/* Card CSS */
+.card-container {
+  margin-top: 3em;
+  width: 400px;
+  height: 500px;
+
+  background-color: rgba(230, 230, 230, 0.291);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-details {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.city-temp {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.country-span {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.temperature-h3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.wind-h4 {
+  font-weight: 500;
+}
+
+.wind-unit {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.icon {
+  font-size: 13rem;
+}
