@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image alt]("./src/assets/images/ssnight.png")
+<img src="https://i.ibb.co/D4T04Lm/ssday.png" alt="day-img">
 
-![image alt]("./src/assets/images/ssday.png")
+<img src="https://i.ibb.co/nzR0x4w/ssnight.png" alt="night-img">
 
 ## Available Scripts
 
